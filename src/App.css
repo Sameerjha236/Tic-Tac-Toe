@@ -1,0 +1,147 @@
+body {
+  background-color: rgb(41, 52, 98);
+}
+
+.container {
+  width: 100%;
+  height: 35em;
+  box-sizing: border-box;
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  color: rgb(248, 6, 204);
+  ;
+  background-color: wheat;
+  font-size: 5em;
+}
+
+.new_game {
+  width: 15em;
+  height: 3em;
+  border-radius: 2em;
+  font-size: 1.5em;
+  font-style: italic;
+  background-color: rgb(8, 217, 214);
+  color: rgb(37, 42, 52);
+  display: flex;
+  border: 2px solid rgb(37, 42, 52);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.new_game:hover {
+  background-color: #00ABB3;
+}
+
+.mode {
+  color: rgb(248, 6, 204);
+  ;
+  background-color: wheat;
+  font-size: 3em;
+}
+
+.options {
+  width: 10em;
+  height: 3em;
+  border-radius: 2em;
+  font-size: 1.5em;
+  font-style: italic;
+  background-color: rgb(8, 217, 214);
+  color: rgb(37, 42, 52);
+  display: flex;
+  border: 2px solid rgb(37, 42, 52);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.phase {
+  display: flex;
+  flex-direction: row;
+}
+.new_game{
+  display: flex;
+  flex-direction: column;
+}
+.phase-container {
+  width: 100%;
+  height: 25em;
+  box-sizing: border-box;
+  /* padding: 2em; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wrapper-button {
+  width: 7em;
+  height: 3em;
+  border-radius: 2em;
+  font-size: 1.5em;
+  font-style: italic;
+  background-color: rgb(8, 217, 214);
+  color: rgb(37, 42, 52);
+  display: flex;
+  border: 2px solid rgb(37, 42, 52);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.players {
+  display: flex;
+  flex-direction: row;
+  margin-right: 2em;
+}
+
+.player {
+  width: 50%;
+  font-size: 1em;
+  font-weight: bold;
+  padding-bottom: 0.8em;
+  margin-bottom: 1.2em;
+}
+
+.player-X {
+  color: #1CD6CE;
+  border-bottom: 4px solid #1CD6CE;
+}
+
+.player-O {
+  color: #FEDB39;
+  border-bottom: 4px solid #FEDB39;
+}
+
+.game-wrapper {
+  margin-top: 3em;
+  width: 30em;
+  height: 30em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 5em;
+}
+
+.winnerWrapper {
+  width: 30em;
+  height: 30em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+.winner-text {
+  font-size: 3em;
+  font-weight: bolder;
+  color: rgb(248, 6, 204);
+}

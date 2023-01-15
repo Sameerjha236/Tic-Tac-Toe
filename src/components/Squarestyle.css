@@ -1,0 +1,33 @@
+.sqaure-container {
+    width: 3em;
+    height: 3em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.border-right-bottom {
+    border-right: 0.125em dotted rgb(250, 248, 241);
+    border-bottom: 0.125em dotted rgb(250, 248, 241);
+}
+
+.border-right {
+    border-right: 0.125em dotted rgb(250, 248, 241);
+}
+
+.border-bottom {
+    border-bottom: 0.125em dotted rgb(250, 248, 241);
+}
+
+
+.X-color{
+    color:#1CD6CE;
+
+}
+.O-color{
+    color:rgb(254, 219, 57);
+}
